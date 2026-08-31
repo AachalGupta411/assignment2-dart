@@ -1,37 +1,62 @@
-# Assignment 2 – Dart Async Programming and Null Safety
+# Dart Assignment 2 – Mock API with Null Safety
+
+## Student Details
+
+**Name:** Aachal Gupta  
+**Assignment:** Assignment 2  
+**Subject:** Flutter / Dart Programming  
+**Language:** Dart  
+
+---
 
 ## Aim
 
-To build a Dart program using null safety, Future, async/await and mock API data. The program also demonstrates handling of null responses and errors.
+To build a Dart program that demonstrates:
+
+- Null safety
+- `Future`
+- `async/await`
+- Mock API data fetching
+- Handling of null responses
+- Handling of empty data
+- Exception and error handling
+
+---
+
+## Objective
+
+The objective of this assignment is to understand how asynchronous operations work in Dart and how applications can safely handle different API response conditions.
+
+The program simulates an API request using `Future.delayed()` instead of connecting to a real server.
+
+---
 
 ## Concepts Used
 
-- Null Safety
-- Future
-- async/await
-- Mock API
-- Exception Handling
-- Nullable Variables
-- List and Map
-- try-catch
+### 1. Null Safety
 
-## Program Description
+Dart's null safety feature is used to prevent unexpected null-related errors.
 
-The program simulates fetching data from a mock API using a Future.
-
-The `fetchData()` function uses `async/await` and a delay to simulate an API request. The program handles three different situations:
-
-1. Successful API response
-2. Null API response
-3. API error/exception
-
-The fetched data is displayed in the terminal.
-
-## Null Safety
-
-Dart null safety is demonstrated using nullable return values.
-
-Example:
+The mock API can return:
 
 ```dart
-Future<List<User>?> fetchData()
+Future<List<User>?>
+
+## Objective
+
+The objective of this assignment is to understand how asynchronous operations work in Dart and how applications can safely handle different API response conditions.
+
+The program simulates an API request using `Future.delayed()` instead of connecting to a real server.
+
+---
+
+## Concepts Used
+
+### 1. Null Safety
+
+Dart's null safety feature is used to prevent unexpected null-related errors.
+
+The mock API can return:
+
+```dart
+Future<List<User>?>
